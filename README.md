@@ -8,23 +8,34 @@ Internally, this module uses [chokidar](https://github.com/paulmillr/chokidar) f
 
 ```javascript
 var ignoringWatcher = require('ignoring-watcher').createWatcher({
-    dir: __dirname, // defaults to process.cwd()
-    dirs: ['some/dir', 'another/dir'], // Watch multiple directories
-    ignorePatterns: [ // One or more ignore patterns
+    // Directory to watch. Defaults to process.cwd()
+    dir: __dirname,
+
+    // Watch multiple directories instead of a single dir
+    dirs: ['some/dir', 'another/dir'],
+
+    // One or more ignore patterns
+    ignorePatterns: [
         '/node_modules',
         '*.marko.js'
     ],
-    ignoreFiles: [ // The ignore patterns from these ignore files will all
-                   // be loaded and joined together
+
+    // The ignore patterns from these ignore files will all
+    // be loaded and joined together
+    ignoreFiles: [
         '.gitignore',
         '.npmignore'
     ],
-    selectIgnoreFile: [ // Only the first existing ignore file (if any) will be loaded and merged
+
+    // Only the first existing ignore file (if any) will be loaded and merged
+    selectIgnoreFile: [
         '.gitignore',
         '.npmignore'
     ],
-    defaultIgnorePatterns: [ // If no ignore patterns were found via the other properties
-                             // then these ignore patterns will be used
+
+    // If no ignore patterns were found via the other properties
+    // then these ignore patterns will be used
+    defaultIgnorePatterns: [
         '.*'
     ]
 });
