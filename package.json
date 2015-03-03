@@ -1,28 +1,28 @@
 {
-    "name": "ignoring-watcher",
-    "description": "Watch an entire directory tree while ignoring specific directories/files based on .gitignore rules.",
-    "main": "lib/index",
-    "scripts": {},
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/patrick-steele-idem/ignoring-watcher.git"
-    },
-    "keywords": [
-        "watch",
-        "ignore",
-        "file"
-    ],
-    "author": "Patrick Steele-Idem <pnidem@gmail.com>",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/patrick-steele-idem/ignoring-watcher/issues"
-    },
-    "homepage": "https://github.com/patrick-steele-idem/ignoring-watcher",
-    "dependencies": {
-        "chokidar": "^1.0.0-rc3",
-        "minimatch": "^2.0.1",
-        "raptor-polyfill": "^1.0.2",
-        "raptor-util": "^1.0.7"
-    },
-    "version": "1.0.2"
+  "name": "ignoring-watcher",
+  "description": "Watch an entire directory tree while ignoring specific directories/files based on .gitignore rules.",
+  "main": "lib/index",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrick-steele-idem/ignoring-watcher.git"
+  },
+  "keywords": [
+    "watch",
+    "ignore",
+    "file"
+  ],
+  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrick-steele-idem/ignoring-watcher/issues"
+  },
+  "homepage": "https://github.com/patrick-steele-idem/ignoring-watcher",
+  "dependencies": {
+    "chokidar": "^0.8.4",
+    "minimatch": "^2.0.1",
+    "raptor-polyfill": "^1.0.2",
+    "raptor-util": "^1.0.7"
+  },
+  "version": "1.0.2"
 }
