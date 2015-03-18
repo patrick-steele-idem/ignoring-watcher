@@ -2,7 +2,7 @@ ignoring-watcher
 ===============
 This module allows you to create a directory tree watcher while ignoring specific directories/files based on [.gitignore rules](http://git-scm.com/docs/gitignore). Instead of specifying which files/directories to watch it is often more convenient to specify which files/directories to _not_ watch.
 
-Internally, this module uses [chokidar](https://github.com/paulmillr/chokidar) for crowss-OS file watching and the [minimatch](https://www.npmjs.com/package/minimatch) module is used to filter out ignored files.
+Internally, this module uses [chokidar](https://github.com/paulmillr/chokidar) for cross-OS file watching and the [minimatch](https://www.npmjs.com/package/minimatch) module is used to filter out ignored files.
 
 # Usage
 
