@@ -19,10 +19,10 @@
     },
     "homepage": "https://github.com/patrick-steele-idem/ignoring-watcher",
     "dependencies": {
-        "chokidar": "^0.8.4",
+        "chokidar": "^1.0.5",
         "minimatch": "^2.0.1",
         "raptor-polyfill": "^1.0.2",
         "raptor-util": "^1.0.7"
     },
-    "version": "1.0.4"
+    "version": "1.0.8"
 }
