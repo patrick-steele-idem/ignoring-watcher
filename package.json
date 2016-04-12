@@ -19,7 +19,7 @@
     },
     "homepage": "https://github.com/patrick-steele-idem/ignoring-watcher",
     "dependencies": {
-        "chokidar": "^1.0.5",
+        "chokidar": "^1.4.3",
         "raptor-util": "^1.0.7"
     },
     "version": "1.0.14"
