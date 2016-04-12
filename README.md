@@ -37,6 +37,12 @@ var ignoringWatcher = require('ignoring-watcher').createWatcher({
     // then these ignore patterns will be used
     defaultIgnorePatterns: [
         '.*'
+    ],
+
+    // The following patterns will always be loaded and not impact
+    // the loading of the `defaultIgnorePatterns`
+    ignoreAlwaysPatterns: [
+        'output-file.txt'
     ]
 });
 
